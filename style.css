@@ -60,7 +60,6 @@ body {
     font-size: 15px;
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
-    padding-bottom: 200px;
 }
 
 *,
@@ -131,6 +130,7 @@ a {
  
 /*Flex*/
 
+
 .flex {
     display: flex;
     justify-content: space-between;
@@ -154,8 +154,8 @@ a {
 }
 
  
-
 /*Header*/
+
 
 .contact-bar {
     background-color: var(--primary);
@@ -216,6 +216,7 @@ a {
 
 
 /*About*/
+
 
 .about {
     background: #f6f9fe;
@@ -297,7 +298,9 @@ a {
     right: 100px;
 }
 
+
 /*Service*/
+
 
 .service-text h3 {
     font-size: 15px;
@@ -322,7 +325,9 @@ a {
     padding: 100px 0;
 }
 
+
 /*Cases*/
+
 
 .cases-section {
     background-color: #f6f9fe;
@@ -344,7 +349,7 @@ a {
     width: 48%;
 }
 .case-col {
-    width: 48%;
+   flex: 0 1 48%;
 }
 .cases-img {
     margin-left: 10px;
@@ -356,6 +361,7 @@ a {
 
 
 /*Testimonial*/
+
 
 .testimonial {
     text-align: center;
@@ -379,7 +385,9 @@ a {
     font-size: 12px;
 }
 
+
 /*Recent*/
+
 
 .recent {
     padding-bottom: 100px;
@@ -403,6 +411,8 @@ a {
 
 
 /*Contact*/
+
+
 
 .contact-section {
     background-color: var(--primary);
@@ -440,16 +450,19 @@ a {
     padding: 8px 40px;
     font-size: 11px;
     margin: 8px 
-    
 }
 
 /*Footer*/
 
 
+.footer {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
 .footer-header h3{
     font-size: 18px;
     color: var(--secondary);
-    
 } 
 
 .footer-brand img {
@@ -473,14 +486,11 @@ a {
     padding: 15px 0;
     font-weight: 300;
     color: var(--primary);
-
 }
 .footer-hr {
     border: 0;
     border-top: 1px solid #ccdff3;
-    margin-top: 50px;
-    
-  
+    margin-top: 50px; 
 }
 .additional-info p {
     font-size: 10px;
